@@ -21,16 +21,52 @@ header {
     background-repeat: no-repeat;
 }
 
-#scroll {
+/* #scroll {
     width: 40px;
+} */
+
+.page-title {
+    padding: 1em;
 }
 
 .content {
     min-height: 85vh;
+    padding: 3%;
     background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.news {
+    margin: 2em auto;
+}
+
+.news img {
+    padding-left: 0;
+    margin-right: 2em;
+}
+
+.news-text {
+    padding: 1.5em;
+}
+
+.program {
+    padding: 1em;
+}
+
+.program-image {
+
+}
+
+.program-text {
+    padding: 1em;
 }
 
 .icon {
+    margin: 5px;
+    width: 50px;
+}
+
+.icon-small {
     width: 40px;
 }
 
@@ -41,6 +77,10 @@ header {
 
 .footer-copyright {
     color: #666;
+}
+
+.btn-primary {
+    background:#411a00;
 }
 
 /* nav bar */
