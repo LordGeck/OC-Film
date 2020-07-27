@@ -15,50 +15,30 @@ body {
 header {
     height: 100vh;
     min-height: 500px;
-    background-image: url('../images/header-background.jpg');
+    background-image: url('../images/frontpage.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-/* #scroll {
-    width: 40px;
-} */
+.introduction {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.down-button {
+    color: #fff;
+    font-size: 2rem;
+}
 
 .page-title {
-    padding: 1em;
+    margin: 2rem auto;
 }
 
 .content {
     min-height: 85vh;
-    padding: 3%;
+    padding: 1px 3%;
     background: #fff;
     font-family: 'Open Sans', sans-serif;
-}
-
-.news {
-    margin: 2em auto;
-}
-
-.news img {
-    padding-left: 0;
-    margin-right: 2em;
-}
-
-.news-text {
-    padding: 1.5em;
-}
-
-.program {
-    padding: 1em;
-}
-
-.program-image {
-
-}
-
-.program-text {
-    padding: 1em;
 }
 
 .icon {
@@ -67,23 +47,21 @@ header {
 }
 
 .icon-small {
-    width: 40px;
+    width: 35px;
 }
 
-.page-footer {
-    background-color: #222;
-    color: #ccc;
-}
-
-.footer-copyright {
-    color: #666;
-}
+/* Buttons */
 
 .btn-primary {
     background:#411a00;
+    border: 0px;
 }
 
-/* nav bar */
+.btn-primary:hover {
+    background-color: #000;
+}
+
+/* Nav bar */
 
 .navbar {
     background:#411a00;
@@ -105,4 +83,52 @@ header {
 
 .navbar-collapse {
     justify-content: flex-end;
+}
+
+/* News */
+
+.news {
+    margin: 2em auto;
+}
+
+.news img {
+    padding-left: 0;
+    margin-right: 2em;
+}
+
+.news-text {
+    padding: 1.5em;
+}
+
+/* Program */
+
+.program {
+    padding: 1em;
+}
+
+.program-image {
+
+}
+
+.program-text {
+    padding: 1em;
+}
+
+/* Article page */
+
+.article-text {
+
+}
+
+/* Film page */
+
+.film-image {
+    max-width: 500px;
+}
+
+/* Footer */
+
+.page-footer {
+    background-color: #333;
+    color: #ccc;
 }
