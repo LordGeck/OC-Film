@@ -5,11 +5,11 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background: #f2f6e9;
-    background-image: url('../images/header-background.jpg');
+    background: #8b8bb5;
     background-size: cover;
     background-position: center;
     position: relative;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -19,6 +19,10 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+h1,h2,h3 {
+    font-family: 'Oswald', sans-serif;
 }
 
 .introduction {
@@ -32,13 +36,13 @@ header {
 
 .page-title {
     margin: 2rem auto;
+    color: #16166c;
 }
 
 .content {
     min-height: 85vh;
     padding: 1px 3%;
     background: #fff;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .icon {
@@ -53,18 +57,20 @@ header {
 /* Buttons */
 
 .btn-primary {
-    background:#411a00;
+    background:#16166c;
     border: 0px;
 }
 
 .btn-primary:hover {
-    background-color: #000;
+    background-color: #33337E;
 }
 
 /* Nav bar */
 
 .navbar {
-    background:#411a00;
+    background:#16166c;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
 }
 
 .nav-link,
@@ -78,7 +84,7 @@ header {
 }
 
 .nav-link:hover {
-    color: #000;
+    color: #8b8bb5;
 }
 
 .navbar-collapse {
@@ -89,6 +95,10 @@ header {
 
 .news {
     margin: 2em auto;
+}
+
+.news h3 {
+    color: #16166c;
 }
 
 .news img {
@@ -106,18 +116,12 @@ header {
     padding: 1em;
 }
 
-.program-image {
-
+.program h3 {
+    color: #16166c;
 }
 
 .program-text {
     padding: 1em;
-}
-
-/* Article page */
-
-.article-text {
-
 }
 
 /* Film page */
@@ -129,6 +133,6 @@ header {
 /* Footer */
 
 .page-footer {
-    background-color: #333;
-    color: #ccc;
+    background-color: #33337e;
+    color: #fff;
 }
