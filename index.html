@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <title>Festival de film indépendannt</title>
+        <title>Festival des Films de Plein Air</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="images/favicon.png" type="image/png">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <!-- <link rel="stylesheet" href="src/business-casual.min.css"> -->
+        <link rel="stylesheet" href="images/open-iconic/font/css/open-iconic-bootstrap.css">
         <link rel="stylesheet" type="text/css" href="src/main.css">
     </head>
     <body>
-        <header>
-            <div class="container h-100">
-                <div class="row h-100 align-items-center">
-                    <div class="col-12 text-center">
-                        <h1>Bienvenue !</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis. Suspendisse consectetur mi id libero fringilla, in pharetra sem ullamcorper.</p>
-                        <a href="program.html" class="btn btn-primary">Programme</a></br>
-                        <a href="#news"><img src="images/open-iconic/svg/chevron-bottom.svg" id="scroll"></a>
-                    </div>
+        <header class="d-flex flex-column justify-content-center align-items-center">
+            <div class="row">
+                <div class="introduction col-lg-6 col-md-9 text-center p-3 m-auto">
+                    <h1 class="mb-5">Festival des Films de Plein Air</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis. Suspendisse consectetur mi id libero fringilla, in pharetra sem ullamcorper.</p>
+                    <a href="program.html" class="btn btn-primary">Programme</a></br></br>
+                    <a href="#news"><span class="down-button oi oi-chevron-bottom" title="Plus" aria-hidden="true"></span></a>
                 </div>
             </div>
         </header>
         <nav class="navbar sticky-top navbar-expand-md" id="news">
-            <a class="navbar-brand" href="index.html">Logo</a>
+            <a class="navbar-brand" href="index.html"><img src="images/logo-small.png" height="35" alt="Logo" loading="lazy"></a>
             <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -45,53 +43,59 @@
             </div>
         </nav>
         <section class="container">
-            <div class="content p-2">
-                <h3 class="text-center p-4">Actualités</h3>
-                <div class="container p-2">
-                    <div class="row">
-                        <div class="col-sm-5 text-center p-2">
-                            <img class="img-fluid" src="https://via.placeholder.com/500x400" alt="Image">
+            <div class="content">
+                <h3 class="page-title text-center">Actualités</h3>
+                <div class="news">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-5">
+                            <a href="article.html"><img class="img-fluid" src="images/Article1.png" alt="Image"></a>
                         </div>
-                        <div class="col-sm-7 text-justify p-2">
-                                <h3 class="article-title">Lorem ipsum dolor sit amet.</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                        <div class="news-text col-sm-6">
+                            <a href="article.html"><h3>Titre de l'article</h3></a>
+                            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                            <div class="d-flex justify-content-center justify-content-sm-start">
                                 <a href="article.html" class="btn btn-primary">Plus</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="container p-2">
-                    <div class="row">
-                        <div class="col-sm-5 text-center p-2">
-                            <img class="img-fluid" src="https://via.placeholder.com/500x400" alt="Image">
+                <div class="news">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-5">
+                            <a href="article.html"><img class="img-fluid" src="images/Article2.png" alt="Image"></a>
                         </div>
-                        <div class="col-sm-7 text-justify p-2">
-                            <h3 class="article-title">Lorem ipsum dolor sit amet.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-                            <a href="article.html" class="btn btn-primary">Plus</a>
+                        <div class="news-text col-sm-6">
+                            <a href="article.html"><h3>Titre de l'article</h3></a>
+                            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                            <div class="d-flex justify-content-center justify-content-sm-start">
+                                <a href="article.html" class="btn btn-primary">Plus</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="container p-2">
-                    <div class="row">
-                        <div class="col-sm-5 text-center p-2">
-                            <img class="img-fluid" src="https://via.placeholder.com/500x400" alt="Image">
+                <div class="news">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-5">
+                            <a href="article.html"><img class="img-fluid" src="images/Article3.png" alt="Image"></a>
                         </div>
-                        <div class="col-sm-7 text-justify p-2">
-                            <h3 class="article-title">Lorem ipsum dolor sit amet.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-                            <a href="article.html" class="btn btn-primary">Plus</a>
+                        <div class="news-text col-sm-6">
+                            <a href="article.html"><h3>Titre de l'article</h3></a>
+                            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                            <div class="d-flex justify-content-center justify-content-sm-start">
+                                <a href="article.html" class="btn btn-primary">Plus</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <footer class="page-footer container-fluid text-center">
-            <p>Retrouvez nous sur :</p>
-            <a href=""><img src="images/Facebook.png" alt="Facebook"></a>
-            <a href=""><img src="images/Instagram.png" alt="Instagram"></a>
-            <a href=""><img src="images/Twitter.png" alt="Twitter"></a>
-            <a href=""><img src="images/Youtube.png" alt="Youtube"></a>
-            <div class="footer-copyright text-center">© 2020 Copyright:  </div>
+        <footer class="page-footer container-fluid text-center p-3">
+            <p class="m-1">Retrouvez nous sur :</p>
+            <a href=""><img class="icon" src="images/Facebook.png" alt="Facebook"></a>
+            <a href=""><img class="icon" src="images/Instagram.png" alt="Instagram"></a>
+            <a href=""><img class="icon" src="images/Twitter.png" alt="Twitter"></a>
+            <a href=""><img class="icon" src="images/Youtube.png" alt="Youtube"></a>
+            <p class="m-2">© 2020 Copyright:  </p>
         </footer>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

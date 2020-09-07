@@ -5,48 +5,72 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background: #f2f6e9;
-    background-image: url('../images/header-background.jpg');
+    background: #8b8bb5;
     background-size: cover;
     background-position: center;
     position: relative;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
     height: 100vh;
     min-height: 500px;
-    background-image: url('../images/header-background.jpg');
+    background-image: url('../images/frontpage.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-#scroll {
-    width: 40px;
+h1,h2,h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.introduction {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.down-button {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.page-title {
+    margin: 2rem auto;
+    color: #16166c;
 }
 
 .content {
     min-height: 85vh;
+    padding: 1px 3%;
     background: #fff;
 }
 
 .icon {
-    width: 40px;
+    margin: 5px;
+    width: 50px;
 }
 
-.page-footer {
-    background-color: #222;
-    color: #ccc;
+.icon-small {
+    width: 35px;
 }
 
-.footer-copyright {
-    color: #666;
+/* Buttons */
+
+.btn-primary {
+    background:#16166c;
+    border: 0px;
 }
 
-/* nav bar */
+.btn-primary:hover {
+    background-color: #33337E;
+}
+
+/* Nav bar */
 
 .navbar {
-    background:#411a00;
+    background:#16166c;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
 }
 
 .nav-link,
@@ -60,9 +84,61 @@ header {
 }
 
 .nav-link:hover {
-    color: #000;
+    color: #8b8bb5;
 }
 
 .navbar-collapse {
     justify-content: flex-end;
+}
+
+/* News */
+
+.news {
+    margin: 2em auto;
+}
+
+.news h3 {
+    color: #16166c;
+}
+
+.news img {
+    padding-left: 0;
+    margin-right: 2em;
+}
+
+.news-text {
+    padding: 1.5em;
+}
+
+/* Program */
+
+.program {
+    padding: 1em;
+}
+
+.program h3 {
+    color: #16166c;
+}
+
+.program-text {
+    padding: 1em;
+}
+
+/* Film page */
+
+.film-image {
+    max-width: 500px;
+}
+
+/* Article page */
+
+.article-image {
+    max-width: 600px;
+}
+
+/* Footer */
+
+.page-footer {
+    background-color: #33337e;
+    color: #fff;
 }
