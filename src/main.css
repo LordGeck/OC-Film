@@ -130,6 +130,12 @@ h1,h2,h3 {
     max-width: 500px;
 }
 
+/* Article page */
+
+.article-image {
+    max-width: 600px;
+}
+
 /* Footer */
 
 .page-footer {
